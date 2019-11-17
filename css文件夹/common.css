@@ -1,0 +1,16 @@
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix::before{
+    *zoom: 1;
+}
+.container{
+    width: 1444px;
+    margin:0 auto;
+    height: 44px;
+}
