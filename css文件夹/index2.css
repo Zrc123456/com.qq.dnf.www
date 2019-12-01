@@ -1,0 +1,289 @@
+.topnav{
+    width: 100%;
+    height: 40px;
+    background-color: #fdfdfd;
+    background-image: url(../img文件夹/top_ordin.png);
+    background-repeat:repeat;
+}
+.topnav .banxin{
+    height: 100%;
+}
+.topnav-left{
+   float: left;
+   height: 100%;
+   width: 760px;
+   margin-left: 175px;
+}
+
+.topnav-left a:first-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 125px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-left a:last-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 252px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-right a{
+    width: auto;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-right: 19px;
+    line-height: 40px;
+}
+.topnav-right a:last-child{
+    background-image: url(../img文件夹/top_ordin.png);
+    background-position:0px 42px ;
+    width: 100px;
+    text-align: center;
+}
+.top{
+    width: 100%;
+    height: 219px;
+    background-image: url(../img文件夹/wrap.jpg);
+}
+.content{
+    width: 100%;
+    height: auto;
+    background-color: #448aca;
+}
+.content .banxin6{
+    height:100% ;
+}
+.con1{
+    width: 800px;
+    height: 684px;
+    background-image: url(../img文件夹/bg_index.png);
+    background-repeat: no-repeat;
+    padding-left:30px ;
+}
+.con2{
+    width: 800px;
+    height: 684px;
+    background-image: url(../img文件夹/bg_index.png);
+    background-repeat: no-repeat;
+    background-position: 0px -684px;
+    padding-left:30px ;
+}
+.con3{
+    width: 800px;
+    height: 470px;
+    background-image: url(../img文件夹/bg_index.png);
+    background-repeat: no-repeat;
+    background-position: 0px -1368px;
+}
+.guding{
+    width: 165px;
+    height: 659px;
+    position: absolute;
+    top: 259px;
+    left: 308px;
+}
+.guding a{
+    display: block;
+    width: 150px;
+    height: 54px;
+    background-image: url(../img文件夹/bg_nav.jpg);
+    background-repeat: no-repeat;
+}
+.guding i{
+    display: block;
+    width: 150px;
+    height: 54px;
+    background-image: url(../img文件夹/bg_nav.jpg);
+    background-repeat: no-repeat;
+    display: none;
+}
+.zhanghao i{
+    background-position: -151px 2px;
+}
+.fangdao{
+    background-position: 0px -51px;
+}
+.fangdao i{
+    background-position: -151px -51px;
+}
+.fangpian{
+    background-position: 0px -102px;
+}
+.fangpian i{
+    background-position: -151px -102px;
+}
+.beidao{
+    background-position: 0px -153px;
+}
+.beidao i{
+    background-position: -151px -153px;
+}
+.ceshi{
+    background-position: 0px -204px;
+}
+.ceshi i{
+    background-position: -151px -204px;
+}
+.kefu{
+    background-position: 0px -255px;
+}
+.kefu i{
+    background-position: -151px -255px;
+}
+.guding a:last-child{
+    width: 165px;
+    height: 323px;
+    background-position: 0px -305px;
+    background-repeat: no-repeat;
+}
+.guding a:hover i{
+    display: block;
+}
+.con1 div,.con2 div{
+    width: 211px;
+    height: 193px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.con1 div{
+    margin-top: 232px;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+.con2 div{
+    margin-top: 109px;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+.con1 div h3,.con2 div h3{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.con1 div p ,.con2 div p{
+    margin-bottom: 8px;
+}
+.con1 div span, .con2 div span{
+    line-height: 1.5;
+}
+.con1 div a,.con2 div a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    background-image: url(../img文件夹/bg_btn.jpg);
+    background-repeat: no-repeat;
+}
+ .con2 .password{
+    margin-top: 16px;
+    margin-left:142px ;
+}
+.con2 .moshi{
+    margin-top: 21px;
+    margin-left:19px ;
+}
+.con3-left{
+    width: 353px;
+    height: 219px;
+}
+.con3-left a{
+    display: block;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    background-image: url(../img文件夹/bg_btn_a.jpg);
+    background-position: 0px 1px;
+
+}
+.con3-left a:hover{
+    text-decoration: underline;
+}
+.con3-left{
+    float: left;
+}
+.con3-left .lingpai_1,.con3-left .cangku_1{
+    background-image: url(../img文件夹/bg_btn_c.jpg);
+}
+.lingpai_1{
+    margin-left: 93px;
+    margin-top: 28px;
+}
+.cangku_1{
+    margin-top: -19px;
+    margin-left: 263px;
+}
+.phone{
+    margin-top: 7px;
+    margin-left: 93px;
+}
+.wupin_1{
+    margin-top: -45px;
+    margin-left: 263px;
+}
+.phone_1{
+    margin-top: 32px;
+    margin-left: 93px;
+}
+.mima_1{
+    margin-top: -72px;
+    margin-left: 263px;
+}
+.con3-right{
+    width: 180px;
+    height: 275px;
+    text-align: center;
+    color: white;
+    margin-left: 497px;
+    padding-top: 11px;
+}
+.con3-right h3{
+    color: #555;
+    font-weight: 700;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.con3-right b{
+    line-height: 1.5;
+}
+.bg_01{
+    width: 300px;
+    height: 900px;
+    background-image: url(../img文件夹/people.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -1200px;
+    right: 390px;
+}
+.bottom{
+    width: 100%;
+    height: 144px;
+    background-color: #1a1a1d;
+}
+.bottom{
+    padding-top: 37px;
+    color: #787878;
+    text-align: center;
+}
+.bottom a{
+    display: block;
+    float: left;
+    color: #787878;
+    margin-bottom:9px;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
