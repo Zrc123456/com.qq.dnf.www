@@ -441,43 +441,99 @@
     background-image: url(../img文件夹/sprite.png);
     background-repeat: no-repeat;
 }
-
+.rukou-top i,.rukou-bottom i{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../img文件夹/sprite.png);
+    background-repeat: no-repeat;
+    display: none;
+}
 .rukoulogo{
     background-position: 2px -182px;
+}
+.rukoulogo:hover i{
+    background-position: 2px -212px;
+    display: block;
 }
 .heizuan{
     background-position: -32px -182px;
 }
+.heizuan:hover i{
+    background-position: -32px -212px;
+    display: block;
+}
 .kefulogo{
     background-position: -62px -182px;
+}
+.kefulogo:hover i{
+    background-position: -62px -212px;
+    display: block;
 }
 .anquanlogo{
     background-position: -92px -182px;
 }
+.anquanlogo:hover i{
+    background-position: -92px -212px;
+    display: block;
+}
 .zhoubianlogo{
     background-position: -122px -182px;
+}
+.zhoubianlogo:hover i{
+    background-position: -122px -212px;
+    display: block;
 }
 .kefulogo_1{
     background-position: -155px -182px;
 }
+.kefulogo_1:hover i{
+    background-position: -155px -212px;
+    display: block;
+}
 .luntanlogo{
     background-position: -185px -182px;
+}
+.luntanlogo:hover i{
+    background-position: -185px -212px;
+    display: block;
 }
 .weixinlogo{
     background-position: -218px -182px;
 }
+.weixinlogo:hover i{
+    background-position: -218px -212px;
+    display: block;
+}
 .tubialogo{
     background-position: -249px -182px;
+}
+.tubialogo:hover i{
+    background-position: -249px -212px;
+    display: block;
 }
 .diantailogo{
     background-position: -279px -182px;
 }
+.diantailogo:hover i{
+    background-position: -279px -212px;
+    display: block;
+}
 .yuanhualogo{
     background-position: -310px -182px;
 }
+.yuanhualogo:hover i{
+    background-position: -310px -212px;
+    display: block;
+}
 .xinyuelogo{
     background-position: -341px -182px;
-}.zhongxin-center{
+}
+.xinyuelogo:hover i{
+    background-position: -341px -212px;
+    display: block;
+}
+.zhongxin-center{
     width: 755px;
     height: 450px;
     float: left;
@@ -968,15 +1024,15 @@ border-bottom: 1px solid #e3e3e3;
 .mingxing{
     width: 1137px;
     height: 312px;
-    /* position: absolute;
-    top: 1780px;
-    left: 505px; */
-    float: right;
+    margin-left: 552px;
+    margin-top: 59px;
+}
+.mingxing .banxin2{
+    height: 100%;
 }
 .mingxing-top{
     width: 682px;
     height: 62px;
-    float: left;
 }
 .mingxing h4{
     font-size: 24px;
@@ -1063,8 +1119,9 @@ border-bottom: 1px solid #e3e3e3;
     background-image: url(../img文件夹/bg-mt.png);
     float: left;
     position: absolute;
-    bottom: 0px;
-    right: -120px;
+    bottom: -1170px;
+    right: 85px;
+    background-repeat: no-repeat;
 }
 .pinpai{
     width: 1400px;
@@ -1072,7 +1129,12 @@ border-bottom: 1px solid #e3e3e3;
     /* position: absolute;
     bottom: -1355px;
     right: 0px; */
-    float: right;
+    /* float: right; */
+    margin-left: 553px;
+    margin-top: 10px;
+}
+.pinpai .banxin2{
+    height: 100%;
 }
 .pinpai-top{
     width: 100%;
@@ -1093,10 +1155,134 @@ border-bottom: 1px solid #e3e3e3;
 .bottom{
     width: 100%;
     height: 290px;
+    margin-top: 53px;
 }
-.bottom a{
+.bottom .banxin{
+    height: 100%;
+}
+.bottom-left{
+    float: left;
+}
+.bottom-left a{
     display: block;
     width: 310px;
     height: 280px;
     float: left;
 }
+.bottom-left a:first-child{
+    margin-left: 85px;
+}
+.bottom-right{
+    width: 420px;
+    height: 294px;
+    float: left;
+}
+.bottom-right a{
+    display: block;
+    width: 100%;
+    height: 110px;
+}
+.banben{
+    background-image: url(../img文件夹/bg-btn.png);
+}
+.liuyan{
+    background-image: url(../img文件夹/bg-btn.png);
+    background-position: 0px -119px;
+}
+.shijian{
+    background-image: url(../img文件夹/bg-btn.png);
+    background-position:0px -226px ;
+    background-repeat: no-repeat;
+}
+.bottom-right a p{
+    width:420px;
+    height: 111px;
+    background-image: url(../img文件夹/bg-btn-hover.png);
+    background-repeat: no-repeat;
+}
+.banben p{
+    display: none;
+    background-position:0px 0px ;
+}
+.liuyan p{
+    background-position: 0px -119px;
+    display: none;
+}
+.shijian p{
+    background-position: 0px -226px;
+    display: none;
+}
+.bottom-right a:hover p{
+    display: block;
+}
+.bottom_1{
+    width: 100%;
+    height: 154px;
+    margin-top: 110px;
+    background-color: #282725;
+}
+.bottom_1 .banxin3{
+    height: 100%;
+}
+.bottom_1-left{
+    margin-top: 28px;
+}
+.bottom_1-left a:first-child{
+    float: left;
+}
+.bottom_1-left a:last-child {
+display: block;
+float: left;
+width: 108px;
+height: 40px;
+background-image: url(../img文件夹/sprite-bg.png);
+background-position:-325px -435px ;
+position: relative;
+}
+.bottom_1-left a:last-child:before{
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.bottom_1-right{
+    width: 640px;
+    height: 135px;
+    margin-top: 28px;
+    margin-left: 335px;
+    color: #8c8c8c;
+    
+}
+.bottom_1-right a{
+    color: #8c8c8c;
+}
+.guding{
+    display: block;
+    width: 52px;
+    height: 132px;
+    background-image: url(../img文件夹/chapter_nav.png);
+    background-position: 252px -917px;
+    position: fixed;
+    bottom: 100px;
+    left: 0px;
+}
+.guding div{
+    width: 52px;
+    height: 132px;
+    background-image: url(../img文件夹/chapter_nav.png);
+    background-position: 197px -917px;
+    position: fixed;
+    bottom: 100px;
+    left: 0px;
+    display: none;
+}
+.guding:hover div{
+    display: block;
+}
+    
+
+
+

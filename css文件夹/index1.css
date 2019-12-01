@@ -1,0 +1,142 @@
+.navtop{
+    width: 100%;
+    height: 46px;
+}
+.navtop .banxin4{
+    height: 100%;
+}
+.navtop-left{
+    float: left;
+    width: 500px;
+    height: 100%;
+}
+.navtop-right{
+    float: right;
+    width: 288px;
+    height: 100%;
+}
+
+.navtop-right a{
+    width: 130px;
+    height: 100%;
+    display: block;
+    float: left;
+    width: 120px;
+    height: 100%;
+    text-align: center;
+    line-height: 46px;
+}
+.navtop-right a:first-child i{
+    float: left;
+    display: block;
+    width: 20px;
+    height: 25px;
+    background-image: url(../img文件夹/title_sprite.png);
+    background-position: -34px 0px;
+    margin-top: 6px;
+}
+.navtop-right a:last-child i{
+    float: right;
+    display: block;
+    width: 20px;
+    height: 25px;
+    background-image: url(../img文件夹/title_sprite.png);
+    background-position: 0px 0px;
+    margin-top: 6px;
+}
+.content{
+    width: 100%;
+    height: 890px;
+    background-image: url(../img文件夹/d2c87199f6df0c4ac733a0536bc6378f.jpeg);
+    background-repeat:no-repeat ;
+}
+.xiangqing{
+    display: block;
+    width: 704px;
+    height: 446px;
+    position: absolute;
+    top: 83px;
+    left: 604px;
+}
+.center{
+    width: 750px;
+    height: 330px;
+    position: absolute;
+    top: 570px;
+    right: 595px;
+}
+.center video{
+    height: 300px;
+    float: left;
+}
+.center-right{
+    float: left;
+    width: 203px;
+    height: 331px;
+}
+.center a{
+    display: block;
+    background-image: url(../img文件夹/base.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.guanwang{
+    height: 90px;
+    background-position: 0px -11px;
+ 
+}
+.gaosu{
+    height: 70px;
+    background-position:0px -170px ;
+}
+.qita{
+    height: 70px;
+    background-position:0px -99px ;
+}
+.guodong{
+    height: 70px;
+    background-position:0px -169px ;
+}
+.bottom_1{
+    width: 100%;
+    height: 154px;
+    background-color: #282725;
+}
+.bottom_1 .banxin3{
+    height: 100%;
+}
+.bottom_1-left{
+    margin-top: 28px;
+}
+.bottom_1-left a:first-child{
+    float: left;
+}
+.bottom_1-left a:last-child {
+display: block;
+float: left;
+width: 108px;
+height: 40px;
+background-image: url(../img文件夹/sprite-bg.png);
+background-position:-325px -435px ;
+position: relative;
+}
+.bottom_1-left a:last-child:before{
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.bottom_1-right{
+    width: 640px;
+    height: 135px;
+    margin-top: 28px;
+    margin-left: 335px;
+    color: #8c8c8c;
+    
+}
+.bottom_1-right a{
+    color: #8c8c8c;
+}
