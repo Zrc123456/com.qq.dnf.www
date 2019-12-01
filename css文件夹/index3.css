@@ -1,0 +1,209 @@
+.topnav{
+    width: 100%;
+    height: 40px;
+    background-color: #fdfdfd;
+    background-image: url(../img文件夹/top_ordin.png);
+    background-repeat:repeat;
+}
+.topnav .banxin{
+    height: 100%;
+}
+.topnav-left{
+   float: left;
+   height: 100%;
+   width: 760px;
+   margin-left: 175px;
+}
+
+.topnav-left a:first-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 125px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-left a:last-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 252px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-right a{
+    width: auto;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-right: 19px;
+    line-height: 40px;
+}
+.topnav-right a:last-child{
+    background-image: url(../img文件夹/top_ordin.png);
+    background-position:0px 42px ;
+    width: 100px;
+    text-align: center;
+} 
+.content{
+    width: 100%;
+    height: 110px;
+    background-color: #2c2722;
+}
+.content .banxin7{
+    height: 100%;
+}
+.content a{
+    display: block;
+    width: 215px;
+    height: 100%;
+    float: left;
+    background-image: url(../img文件夹/sprite-down.png);
+}
+.content a:hover i{
+    display: block;
+}
+.content a i{
+    display: block;
+    width: 215px;
+    height: 100%;
+    float: left;
+    background-image: url(../img文件夹/sprite-down.png);
+    display: none;
+}
+.content .xiazai{
+    width: 356px;
+    height: 100%;
+    background-position: 0px 0px;
+}
+.content .wanmei{
+    background-position: -357px -3px ;
+}
+.content .wanmei i{
+    background-position: -357px -110px ;
+}
+.content .buding{
+    background-position: -570px -3px;
+}
+.content .buding i{
+    background-position: -570px -110px;
+}
+.banxin7 .fuzhu{
+    background-position:-752px -3px;
+}
+.banxin7 .fuzhu i{
+    background-position:-752px -110px;
+}
+.center{
+    width: 100%;
+    height: 849px;
+    background-image:url(../img文件夹/bg-down-path.jpg);
+    padding-top: 63px;
+    padding-left: 958px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.center div:first-child{
+    background-color: #fff;
+}
+.center div{
+    width: 642px;
+    height: 97px;
+    border: 2px solid #e1e1e0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #ededed;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #999999;
+    position: relative;
+}
+.center div h4{
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+    color: #333;
+}
+
+.center div a{
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    margin-left: 329px;
+    display: block;
+    width: 117px;
+    height: 26px;
+    border: 2px solid #e1e1e0;
+    margin-top: 15px;
+}
+.center div a:hover{
+    color: #fff;
+    background-color: #ec4828;
+}
+.center div p{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 7px;
+}
+.center div i{
+    display: block;
+    width:46px;
+    height: 17px;
+    background-image: url(../img文件夹/sprite-down.png);
+    background-position:-265px -112px ;
+    position: absolute;
+    top: 21px;
+    left: 173px;
+}
+.center div b{
+    color: red;
+}
+.bottom_1{
+    width: 100%;
+    height: 154px;
+    margin-top: 110px;
+    background-color: #282725;
+    margin-top: 957px;
+    padding-top: 15px;
+}
+.bottom_1 .banxin3{
+    height: 100%;
+}
+.bottom_1-left{
+    margin-top: 28px;
+}
+.bottom_1-left a:first-child{
+    float: left;
+}
+.bottom_1-left a:last-child {
+display: block;
+float: left;
+width: 108px;
+height: 40px;
+background-image: url(../img文件夹/sprite-bg.png);
+background-position:-325px -435px ;
+position: relative;
+}
+.bottom_1-left a:last-child:before{
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.bottom_1-right{
+    width: 640px;
+    height: 135px;
+    margin-top: 28px;
+    margin-left: 335px;
+    color: #8c8c8c;
+    
+}
+.bottom_1-right a{
+    color: #8c8c8c;
+}
