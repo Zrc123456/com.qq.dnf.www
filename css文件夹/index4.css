@@ -1,0 +1,292 @@
+.topnav{
+    width: 100%;
+    height: 40px;
+    background-color: #fdfdfd;
+    background-image: url(../img文件夹/top_ordin.png);
+    background-repeat:repeat;
+}
+.topnav .banxin{
+    height: 100%;
+}
+.topnav-left{
+   float: left;
+   height: 100%;
+   width: 760px;
+   margin-left: 175px;
+}
+
+.topnav-left a:first-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 125px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-left a:last-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 252px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-right a{
+    width: auto;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-right: 19px;
+    line-height: 40px;
+}
+.topnav-right a:last-child{
+    background-image: url(../img文件夹/top_ordin.png);
+    background-position:0px 42px ;
+    width: 100px;
+    text-align: center;
+} 
+.top{
+    width: 100%;
+    height: 89px;
+    box-sizing: border-box;
+    border-top:4px solid #ee0703 ;
+    background-color: #1c1d22;
+    /* padding-top: 27px; */
+}
+.top .banxin8{
+    height: 100%;
+    background-color: #171b24;
+    text-align: left;
+}
+.top li {
+    width: 120px;
+    height: 85px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    text-align: center;
+}
+.top li:hover{
+    background-image: url(../img文件夹/img-libao/actnav.png);
+    background-position: 0px -91px;
+}
+.top li:hover a p,.top li:hover a span {
+    color: #fef9c3;
+}
+.top li a{
+    color: #a9a9a9;
+    overflow: hidden;
+}
+.top a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.top a p{
+    margin-top: 27px;
+    margin-bottom:8px;
+    font-size: 13px;
+    color: #a9a9a9;
+    font-weight: 700;
+}
+.top a span{
+    color: #767a82;
+}
+.top li:before{
+    content: "";
+    width: 2px;
+    height: 54px;
+    background-color: #111419;
+    position: absolute;
+    top: 18px;
+    right: -3px;
+}
+.top li:after{
+    content: "";
+    width: 2px;
+    height: 54px;
+    background-color: #242830;
+    position: absolute;
+    top: 18px;
+    right: -5px;
+}
+.zhongxin{
+    width: 128px;
+    height: 100%;
+    padding-top: 12px;
+    padding-left:12px ;
+    float: right;
+    position: absolute;
+    top: 42px;
+    right: 292px;
+
+}
+.zhongxin a{
+    display: block;
+    width: 100px;
+    height: 28px;
+    background-color: #e4c8a5;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    line-height:28px;
+}
+.bg1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img文件夹/img-libao/bg1.jpg);
+}
+.bg2{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img文件夹/img-libao/bg2.jpg);
+}
+.bg3{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img文件夹/img-libao/bg3.jpg);
+}
+.bg4{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img文件夹/img-libao/bg4.jpg);
+}
+.bg5{
+    width: 100%;
+    height: 436px;
+    background-image: url(../img文件夹/img-libao/bg5.jpg);
+}
+.bg6{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img文件夹/img-libao/bg6.jpg);
+}
+.bg7{
+    width: 100%;
+    height: 375px;
+    background-image: url(../img文件夹/img-libao/bg7.jpg);
+}
+.lihe{
+    width: 1086px;
+    height: 128px;
+    margin: 0 auto;
+    padding-left:50px ;
+    box-sizing: border-box;
+}
+.lihe div{
+    width: 230px;
+    height: 128px;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+}
+.lihe div p{
+    font-size: 20px;
+    color: #fcfcfc;
+    font-weight: 700;
+}
+.lihe div a{
+    display: block;
+    margin-top: 17px;
+    margin-left: 60px;
+    width: 123px;
+    height: 33px;
+    background-image: url(../img文件夹/img-libao/sprite.png);
+}
+.lihe .lihe1 a{
+    margin-top: 40px;
+}
+.shuoming{
+    width:525px;
+    height: 230px;
+    margin: 0 auto;
+}
+.shuoming div{
+    width: auto;
+    height: 33px;
+    margin-top: 5px;
+}
+.shuoming_1{
+    width:525px;
+    height: 230px;
+    margin: 0 auto;
+}
+.shuoming h3,.shuoming h3{
+    font-size: 25px;
+    color: #907a53;
+    font-weight: normal;
+    margin-bottom: 27px;
+}
+.shuoming span,.shuoming span{
+    color: #bea164;
+    float: left;
+    display: block;
+    width: 480px;
+    height: 33px;
+    line-height: 33px;
+}
+.shuoming a,.shuoming_1 a{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 33px;
+    background-image: url(../img文件夹/img-libao/icon.png);
+    color: #bea164;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+}
+.bg6 .daoju{
+    width: 1080px;
+    height: 347px;
+    margin: 0 auto;
+    border-top: 4px solid #b9a25d;
+}
+table{
+    width: 1080px;
+    height: 348px;
+    color: #b9a25d;
+}
+table th{
+    color: #fff4ba;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom:2px solid #62593f ;
+}
+table td{
+    border-bottom: 2px dashed #5d553e;
+}
+table th:last-child{
+    text-align: right;
+}
+.xiazai{
+    display: block;
+    width: 487px;
+    height: 90px;
+    background-image: url(../img文件夹/img-libao/sprite.png);
+    background-position: 0px -61px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.bottom{
+    width: 100%;
+    height: 130px;
+    background-color: #cca452;
+}
+.bottom .banxin5{
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 33px;
+    box-sizing: border-box;
+}
+.bottom p{
+    margin-top: 8px;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
