@@ -1,0 +1,150 @@
+.topnav{
+    width: 100%;
+    height: 88px;
+    background-color: #1e252f;
+}
+.topnav .banxin7{
+    height: 100%;
+}
+.bg a{
+    display: block;
+    width: 150px;
+    height: 88px;
+    background-image: url(../img文件夹/img-活动中心/dnf_comm_base.png);
+    background-position: 0px -112px;
+    position: relative;
+    float: left;
+    margin-right: 90px;
+}
+.bg a span{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    bottom: 27px;
+    right: 19px;
+}
+.huodong{
+    width: 140px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 88px;
+  
+    font-size: 20px;
+}
+.huodong a{
+    color: #fff;
+}
+.huodong:hover a{
+    color: #ea4728;
+}
+.center{
+    width: 100%;
+    height: 1338px;
+    background-color: #fff;
+    padding-top: 72px;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+.center a{
+    display: block;
+    width: 220px;
+    height: 190px;
+    float: left;
+    margin-right: 45px;
+    margin-bottom: 56px;
+}
+.center a:hover{
+    background-color: #ccc;
+}
+.center .banxin7 div{
+    width: 220px;
+    height: 188px;
+    border: 1px solid #ccc;
+
+}
+.center img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.center p{
+    margin-left: 10px;
+    margin-bottom:8px ;
+}
+.center span{
+    display: block;
+    margin-left: 15px;
+}
+.anniu{
+    width: 150px;
+    height: 33px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+}
+.anniu .banxin7{
+    height: 100%;
+    padding-left: 500px;
+    box-sizing: border-box;
+}
+.anniu a{
+    display: block;
+    width: 33px;
+    height: 33px;
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 15px;
+}
+.anniu a:last-child{
+    width: 65px;
+    height: 33px;
+}
+.anniu a:hover{
+    background-color: #f3f1ed;
+}
+.bottom_1{
+    width: 100%;
+    height: 154px;
+    background-color: #282725;
+    padding-top: 15px;
+}
+.bottom_1 .banxin3{
+    height: 100%;
+}
+.bottom_1-left{
+    margin-top: 28px;
+}
+.bottom_1-left a:first-child{
+    float: left;
+}
+.bottom_1-left a:last-child {
+display: block;
+float: left;
+width: 108px;
+height: 40px;
+background-image: url(../img文件夹/sprite-bg.png);
+background-position:-325px -435px ;
+position: relative;
+}
+.bottom_1-left a:last-child:before{
+    content: "";
+    width: 1px;
+    height: 40px;
+    background-color: #8c8c8c;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.bottom_1-right{
+    width: 640px;
+    height: 135px;
+    margin-top: 28px;
+    margin-left: 335px;
+    color: #8c8c8c;
+    
+}
+.bottom_1-right a{
+    color: #8c8c8c;
+}
