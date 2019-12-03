@@ -1,0 +1,249 @@
+.topnav{
+    width: 100%;
+    height: 40px;
+    background-color: #fdfdfd;
+    background-image: url(../img文件夹/top_ordin.png);
+    background-repeat:repeat;
+}
+.topnav .banxin{
+    height: 100%;
+}
+.topnav-left{
+   float: left;
+   height: 100%;
+   width: 760px;
+   margin-left: 175px;
+}
+
+.topnav-left a:first-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 125px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-left a:last-child{
+    display: block;
+    width: 230px;
+    height: 100%;
+    background-image:url(../img文件夹/top_ordin.png);
+    background-position: 0px 252px ;
+    overflow: hidden;
+    float: left;
+}
+.topnav-right a{
+    width: auto;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-right: 19px;
+    line-height: 40px;
+}
+.topnav-right a:last-child{
+    background-image: url(../img文件夹/top_ordin.png);
+    background-position:0px 42px ;
+    width: 100px;
+    text-align: center;
+} 
+.top{
+    width: 100%;
+    height: 89px;
+    box-sizing: border-box;
+    border-top:4px solid #ee0703 ;
+    background-color: #1c1d22;
+    /* padding-top: 27px; */
+}
+.top .banxin8{
+    height: 100%;
+    background-color: #171b24;
+    text-align: left;
+}
+.top li {
+    width: 120px;
+    height: 85px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    text-align: center;
+}
+.top li:hover{
+    background-image: url(../img文件夹/img-libao/actnav.png);
+    background-position: 0px -91px;
+}
+.top li:hover a p,.top li:hover a span {
+    color: #fef9c3;
+}
+.top li a{
+    color: #a9a9a9;
+    overflow: hidden;
+}
+.top a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.top a p{
+    margin-top: 27px;
+    margin-bottom:8px;
+    font-size: 13px;
+    color: #a9a9a9;
+    font-weight: 700;
+}
+.top a span{
+    color: #767a82;
+}
+.top li:before{
+    content: "";
+    width: 2px;
+    height: 54px;
+    background-color: #111419;
+    position: absolute;
+    top: 18px;
+    right: -3px;
+}
+.top li:after{
+    content: "";
+    width: 2px;
+    height: 54px;
+    background-color: #242830;
+    position: absolute;
+    top: 18px;
+    right: -5px;
+}
+.zhongxin{
+    width: 128px;
+    height: 100%;
+    padding-top: 12px;
+    padding-left:12px ;
+    float: right;
+    position: absolute;
+    top: 42px;
+    right: 292px;
+
+}
+.zhongxin a{
+    display: block;
+    width: 100px;
+    height: 28px;
+    background-color: #e4c8a5;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    line-height:28px;
+}
+.bg{
+    width: 100%;
+    height: 1040px;
+    background-image: url(../img文件夹/墨香活动/bg.jpg);
+    position:absolute;
+    top: 128px;
+    left: 0px;
+    z-index: -1;
+}
+.center-top{
+    width: 100%;
+    height: 56px;
+    width: 800px;
+}
+.center-top {
+    margin-top: 406px;
+    margin-left: 285px;
+}
+.center-top p:first-child{
+    color: #000;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.center-top p:last-child{
+    width: 430px;
+    height: 30px;
+    background-image: url(../img文件夹/墨香活动/sp.png);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.content a{
+    display: block;
+    width: 358px;
+    height: 100px;
+    background-image: url(../img文件夹/墨香活动/dj.jpg);
+    margin-top: 100px;
+    margin-left: 570px;
+}
+.content-center{
+    width: 100%;
+    height: 344px;
+}
+.content-center .banxin{
+    height: 100%;
+}
+ .box1,.box2{
+    display: block;
+    width: 549px;
+    height: 314px;
+    background-image: url(../img文件夹/墨香活动/box.jpg);
+    float: left;
+    margin-top: 32px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.box1{
+    margin-left:176px;
+    margin-right: 45px;
+}
+
+.box1 a,.box2 a{
+    display: block;
+    width: 400px;
+    height: 75px;
+    margin-left: 18px;
+
+}
+.box1 a{
+    background-image: url(../img文件夹/墨香活动/tit1.png);
+}
+.box2 a{
+    background-image: url(../img文件夹/墨香活动/tit2.png);
+}
+.box1 div,.box2 div{
+    width: 407px;
+    height:45px;
+    color: #5c4500;
+    font-size: 13px;
+    float: left;
+}
+.box1 div i,.box2 div i{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    background-image: url(../img文件夹/墨香活动/sp.png);
+    background-position: -143px -46px;
+    text-align: center;
+    line-height: 20px;
+    color: #5c4500;
+}
+.bottom{
+    width: 100%;
+    height: 109px;
+    background-color:#000 ;
+    padding-top:30px ;
+    box-sizing: border-box;
+    margin-top: 33px;
+}
+.bottom .banxin10{
+    height: 100%;
+    color:#BBC7DE;
+    text-align: center;
+}
+.bottom a,.bottom p{
+    color:#BBC7DE;
+}
+
