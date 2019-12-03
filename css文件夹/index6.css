@@ -138,20 +138,135 @@
     width: 100%;
     height: 500px;
     background-image: url(../img文件夹/img-星罗万象/bg1.jpg);
-    position: relative;
+    position: absolute;
+    top: 129px;
+    right: 0px;
     z-index: -1;
 }
 .bg2{
     width: 100%;
     height: 1000px;
     background-image: url(../img文件夹/img-星罗万象/bg2.jpg);
-    position: relative;
+    position: absolute;
+    top: 629px;
+    right: 0px;
     z-index: -1;
 }
-bg3{
+.bg3{
     width: 100%;
     height: 889px;
     background-image: url(../img文件夹/img-星罗万象/bg3.jpg);
-    position: relative;
+    position: absolute;
+    top: 1629px;
+    right: 0px;
     z-index: -1;
+}
+.bg4{
+    width: 1028px;
+    height: 630px;
+    background-image: url(../img文件夹/img-星罗万象/c1_tab_bg.png);
+    position: absolute;
+    top: 1248px;
+    left: 450px;
+}
+.bg5{
+    width: 1028px;
+    height: 470px;
+    background-image: url(../img文件夹/img-星罗万象/c1_tab2_bg.png);
+    position: absolute;
+    top: 1900px;
+    left: 450px;
+}
+.jieshao{
+    margin-top:520px ;
+    width: 100%;
+    height:560px;
+}
+.jieshao .banxin9{
+    height: 100%;
+    text-align: center;
+}
+.jieshao p{
+    color:#a2602b;
+    line-height: 1.5;
+
+}
+.jieshao img{
+    margin-top: -10px;
+}
+.jiangli{
+    width: 100%;
+    /* height: 674px; */
+}
+.jiangli .banxin10{
+    height: 100%;
+    text-align: center;
+    padding-left:120px ;
+    padding-top: 10px;
+}
+p{
+    text-align: center;
+    color:#a2602b ;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.one{
+    width: 1018px;
+    height: 617px; 
+    border: 2px solid #efb390;
+    box-sizing: border-box;
+}
+.jiangli table th{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+.one tr td:nth-child(2){
+    width: 636px;
+    text-align: left;
+    padding-left: 44px;
+    padding-right: 44px;
+    box-sizing: border-box;
+}
+table tr:nth-child(2n){
+    background-color: #fff4de;
+}
+table tr:first-child{
+    background-color: #cd774c;
+}
+table:last-child{
+    width: 1018px;
+    height:470px ;
+    margin-top: 35px;
+    margin-left: 2px;
+    border: 1px solid #efb390;
+}
+.two tr td:nth-child(2){
+    width: 746px;
+    text-align: left;
+    padding-left: 44px;
+    padding-right: 44px;
+    box-sizing: border-box;
+   
+}
+table{
+    color: #a2602b;
+}
+.shuoming{
+    margin-top: 85px;
+}
+.bottom{
+    width: 100%;
+    height: 109px;
+    background-color:#000 ;
+    padding-top:30px ;
+    box-sizing: border-box;
+}
+.bottom .banxin10{
+    height: 100%;
+    color:#BBC7DE;
+    text-align: center;
+}
+.bottom a,.bottom p{
+    color:#BBC7DE;
 }
