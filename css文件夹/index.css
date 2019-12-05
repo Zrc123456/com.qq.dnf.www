@@ -94,14 +94,29 @@
     box-sizing: border-box;
     margin-right: 67px;
     margin-top: 12px;
+    position: relative;
 }
 .daohang ul a span{
     color: #ccc;
     font-size: 6px;
 }
-.daohang ul a:hover{
-    border-bottom:2px solid #EC4828 ;
+.daohang ul a:before{
+    content: "";
+    width: 0;
+    height: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background-color: #ec4828;
+
+}
+.daohang ul a:hover:before{
+    left: 0;
+    transition: all 0.5s;
+    width: 100%;
     color:#EC4828 ;
+}
+.daohang ul a:hover{
     background-image: url(../img文件夹/sprite.png);
     background-position:-211px 0px ;
 }
@@ -457,6 +472,7 @@
     margin-bottom: 20px;
     text-align: center;
     color: #8b9298;
+    position: relative;
 }
 .rukou-top div,.rukou-bottom div{
     width: 100%;
@@ -475,12 +491,46 @@
     background-repeat: no-repeat;
     display: none;
 }
+.rukou-bottom a:hover p{
+    color: #ec4828;
+}
+.rukou-bottom a:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #ec4828;
+    position:absolute;
+    top: 100%;
+    left: 50%;
+}
+.rukou-bottom a:hover:after{
+    width: 100%;
+    transition: 0.5s;
+    left: 0;
+}
 .rukoulogo{
     background-position: 2px -182px;
 }
 .rukoulogo:hover i{
     background-position: 2px -212px;
     display: block;
+}
+.rukou-top a:hover p{
+    color: #ec4828;
+}
+.rukou-top a:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #ec4828;
+    position:absolute;
+    top: 100%;
+    left: 50%;
+}
+.rukou-top a:hover:after{
+    width: 100%;
+    transition: 0.5s;
+    left: 0;
 }
 .heizuan{
     background-position: -32px -182px;
@@ -1861,7 +1911,10 @@ border-bottom: 1px solid #e3e3e3;
 .bottom-right a{
     display: block;
     width: 100%;
-    height: 110px;
+    height:110px;
+}
+.bottom-right a:first-child{
+    height: 121px;
 }
 .banben{
     background-image: url(../img文件夹/bg-btn.png);
@@ -1880,6 +1933,9 @@ border-bottom: 1px solid #e3e3e3;
     height: 111px;
     background-image: url(../img文件夹/bg-btn-hover.png);
     background-repeat: no-repeat;
+}
+.bottom-right a p:first-child{
+    height: 121px;
 }
 .banben p{
     display: none;
