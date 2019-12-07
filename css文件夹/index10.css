@@ -1,0 +1,529 @@
+.topnav{
+    width: 100%;
+    height: 37px;
+    background-color: #fff;
+    border-bottom:2px solid #dadada ;
+}
+.topnav .ban{
+    height: 100%;
+}
+.topnav-left{
+    width: 500px;
+    height: 100%;
+    line-height: 37px;
+    float: left;
+}
+.topnav-left a:hover{
+    text-decoration: underline;
+}
+.topnav-right{
+    width: 620px;
+    height: 100%;
+    float: left;
+    line-height: 37px;
+}
+.topnav-right ul li{
+    float: left;
+    position: relative;
+}
+.topnav-right ul li:nth-child(-n+4){
+    margin-right: 30px;
+}
+.topnav-right li:first-child a{
+    color: red;
+}
+.topnav-right li a{
+    color: #666;
+}
+.topnav-right li:first-child i{
+    display: block;
+    width:18px; 
+    height:18px;
+    background-image: url(../img文件夹/img-周边/right.png);
+    background-position: -11px -43px;
+    float: left;
+    margin-top: 10px;
+}
+.topnav-right li:nth-child(2) i,.topnav-right li:nth-child(3) i,.topnav-right li:nth-child(4) i{
+    display: block;
+    width:18px; 
+    height:18px;
+    background-image: url(../img文件夹/img-周边/dian.png);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6px;
+    right: -20px;
+}
+.topnav-right li:last-child i{
+    display: block;
+    width:18px; 
+    height:18px;
+    background-image: url(../img文件夹/img-周边/right.png);
+    background-position: -11px -76px;
+    float: left;
+    margin-top: 10px;
+}
+.dingdan{
+    width: 64px;
+    height: 140px;
+    display: none;
+    transition: 1s;
+    position: absolute;
+    top: 35px;
+    right: -17px;
+    background-color: #fff;
+    z-index: 10;
+}
+.dingdan a,.gonggao a,.bangzhu a{
+    display: block;
+}
+.dingdan a:hover,.gonggao a:hover,.bangzhu a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.topnav-right li:hover div{
+    display: block;
+}
+.gonggao{
+    width: 190px;
+    height: 136px;
+    display: none;
+    transition: 1s;
+    position: absolute;
+    top: 35px;
+    right: -100px;
+    text-align: left;
+    background-color: #fff;
+    z-index: 10;
+}
+.bangzhu{
+    width: 64px;
+    height: 102px;
+    display: none;
+    transition: 1s;
+    position: absolute;
+    top: 35px;
+    right: -17px;
+    background-color: #fff;
+    z-index: 10;
+}
+.sousuo{
+    width: 100%;
+    height: 142px;
+    background-image: url(../img文件夹/img-周边/index_01.jpg);
+    background-position: 0px -33px;
+    position: relative;
+}
+.sousuo-left{
+    width: 257px;
+    height: 90px;
+    float: left;
+    background-image: url(../img文件夹/img-周边/dnflogo.png);
+    margin-top: 15px;
+    margin-left: -22px;
+}
+.sousuo-right{
+    width: 343px;
+    height: 40px;
+    border: 1px solid #e52b33;
+    float: left;
+    margin-left: 86px;
+    margin-top:40px;
+}
+.sousuo-right input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+button{
+    width: 46px;
+    height: 40px;
+    background-image: url(../img文件夹/img-周边/menu.png);
+    background-position:-7px -18px;
+    background-color: tomato;
+    border: none;
+    float: right;
+}
+.sousuo-right-top{
+    position: absolute;
+    top: 90px;
+    right: 937px;
+}
+.sousuo-right-top a{
+    display: block;
+    color: red;
+    margin-top: 12px;
+    float: left;
+    margin-left: 15px;
+}
+.sousuo-right-top a:hover{
+    text-decoration: underline;
+}
+.diancang{
+    display: block;
+    width: 108px;
+    height: 30px;
+    position: absolute;
+    top: 97px;
+    right: 682px;
+}
+.daohang{
+    width: 100%;
+    height: 66px;
+    background-color: #bf040f;
+}
+.daohang .ban{
+    height: 100%;
+}
+.daohang-left{
+    width: 260px;
+    height: 66px;
+    line-height: 66px;
+    float: left;
+}
+.daohang-left i{
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-image: url(../img文件夹/img-周边/menu.png);
+    background-position: -21px -75px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.daohang-left span{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+.daohang-right{
+    width: 876ox;
+    height:100%;
+    float: left;
+    line-height: 66px;
+}
+.daohang-right a{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-right: 60px;
+    position: relative;
+}
+.daohang-right a:hover{
+    color: #FFFB63;
+    text-decoration: underline;
+}
+.daohang-right a:before{
+    content: "";
+    width: 2px;
+    height: 24px;
+    background-color: #ff856e;
+    position: absolute;
+    top: 0px;
+    right: -35px;
+}
+.lunbotu{
+    width: 100%;
+    height: 420px;
+    background-image: url(../img文件夹/img-周边/flash290.jpg);
+    position: relative;
+    
+}
+.lunbotu .ban{
+    height: 100%;
+    position: relative;
+}
+.lunbotu-left{
+    width: 222px;
+    height: 420px;
+    background-color: #ef5c27;
+    float: left;
+}
+.lunbotu-left a:hover{
+    color: #FFFB80;
+    text-decoration: underline;
+}
+.lunbotu-left div{
+    width: 219px;
+    height: 110px;
+    border-bottom: 1px solid #e54a11;
+    box-sizing: border-box;
+    padding-top: 32px;
+    padding-left: 20px;
+    }
+.lunbotu-left i{
+    display: block;
+    width: 25px;
+    height: 20px;
+    background-image: url(../img文件夹/img-周边/nav_bj.png);
+    float: left;
+}
+.lunbotu-left div:nth-child(1) i{
+    background-position:  0px -107px;
+}
+.lunbotu-left div:nth-child(2) i{
+    background-position:  0px -241px;
+}
+.lunbotu-left div:nth-child(3) i{
+    background-position:  0px -197px;
+}
+
+.lunbotu-left .libao,.lunbotu-left .shouban,.lunbotu-left .people{
+    display: block;
+    float: left;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    width: 168px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.lunbotu-left a{
+    color: white;
+    display: block;
+    float: left;
+    margin-top: 16px;
+    margin-right: 22px;
+}
+ .lunbotu-left .lingqu{
+    display: block;
+    width: 183px;
+    height: 40px;
+    background-color: white;
+    color: #ec4828;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.next_1{
+    width: 55px;
+    height: 100px;
+    background-image: url(../img文件夹/img-周边/next.png);
+    background-position: -9px -9px;
+    position: absolute;
+    top: 152px;
+    left: 222px;
+}
+.next_2{
+    width: 55px;
+    height: 100px;
+    background-image: url(../img文件夹/img-周边/next.png);
+    background-position: -68px -9px;
+    position: absolute;
+    top: 152px;
+    right: 203px;
+}
+.next_1 a,.next_2 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.next_1:hover a{
+    background-image: url(../img文件夹/img-周边/next.png);
+    background-position: -9px -122px;
+}
+.next_2:hover a{
+    background-image: url(../img文件夹/img-周边/next.png);
+    background-position: -68px -122px;
+}
+.lunbotu-right{
+    float: right;
+    width: 210px;
+    height: 420px;
+    background-color:rgba(245, 245, 245,0.6);
+    padding-top: 25px;
+    padding-left: 18px;
+    box-sizing: border-box;
+}
+.lunbotu-right a:hover{
+    text-decoration: underline;
+    
+}
+.lunbotu-right h4 i{
+    display: block;
+    float: left;
+    width: 5px;
+    height: 10px;
+    background-image: url(../img文件夹/img-周边/dian2.png);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.lunbotu-right span a{
+    color: red;
+}
+.lunbotu-right{
+    line-height: 2;
+}
+.lunbotu ul{
+    position: absolute;
+    bottom: 17px;
+    right: 835px;
+}
+.lunbotu ul li{
+    display: block;
+    width: 76px;
+    height: 10px;
+    background-color: #e93729;
+    float: left;
+    margin-right: 10px;
+}
+.lunbotu ul li:hover{
+    background-color: #fff;
+}
+.zhuanqu{
+    margin-top: 50px;
+}
+.content div{
+    width: 280px;
+    height: 365px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.content div img{
+    margin-left: 10px;
+}
+.content  a p{
+    margin-bottom: 25px;
+}
+.content a span{
+    color: red;
+    margin-right: 10px;
+}
+.content a p:hover{
+    text-decoration: underline;
+}
+.bottom{
+    margin-bottom: 50px;
+}
+.guanggao{
+    width: 100%;
+    height: 254px;
+    background-color: #f4f4f4;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+.daohangup{
+    width: 100%;
+    height: 87px;
+    background-color: #dedede;
+}
+.daohangup .ban{
+    height: 100%;
+}
+.daohangup .ban div{
+    width: 212px;
+    height: 83px;
+    float: left;
+    margin-top: 23px;
+    margin-right: 105px;
+}
+.daohangup .ban div:first-child{
+    margin-left: 160px;
+}
+.daohangup div i{
+    display: block;
+    width: 54px;
+    height: 50px;
+    background-image: url(../img文件夹/img-周边/bottom.png);
+    float: left;
+}
+.daohangup .ban div:nth-child(1) i{
+    background-position:-16px -267px;
+}
+.daohangup .ban div:nth-child(2) i{
+    background-position:-16px -18px;
+}
+.daohangup .ban div:nth-child(3) i{
+    background-position:-16px -98px;
+}
+.daohangup p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.daohangup span{
+    color: #666;
+}
+.faxian{
+    margin-top: 50px;
+}
+.faxian li{
+    display: block;
+    float: left;
+    width: 186px;
+    height: 166px;
+    padding-left: 16px;
+}
+.faxian li:first-child{
+    margin-left: 470px;
+}
+.faxian li:nth-child(2){
+    width: 214px;
+}
+.faxian li:nth-child(4){
+    width: 276px;
+}
+.faxian li a{
+    display: block;
+    margin-bottom: 16px;
+    color: #666;
+}
+.faxian h3 a{
+    font-size: 18px;
+    color: #333;
+}
+.faxian a:hover{
+    text-decoration: underline;
+}
+.faxian i{
+    display: block;
+    width: 133px;
+    height:131px ;
+    background-image: url(../img文件夹/img-周边/bottom.png);
+    background-position: 0px -417px;
+    margin-left: 30px;
+}
+.faxian li:last-child {
+    text-align: center;
+    position: relative;
+}
+.faxian li :last-child:after{
+    content: "";
+    width: 2px;
+    height: 165px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.foot{
+    width: 100%;
+    height: 132px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.foot .ban{
+    height: 100%;
+    border-top: 2px solid #e5e5e5;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.foot i{
+    display: block;
+    width: 224px;
+    height: 53px;
+    background-image: url(../img文件夹/img-周边/bottom.png);
+    background-position: -15px -347px;
+    margin-left: 290px;
+    float: left;
+}
+.foot .ban p{
+    float: left;
+    margin-left: 20px;
+}

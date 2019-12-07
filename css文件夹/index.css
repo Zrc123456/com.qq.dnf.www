@@ -776,6 +776,7 @@ border-bottom: 1px solid #e3e3e3;
     float: left ;
     margin-top: 40px;
     overflow: hidden;
+    margin-left: 30px;
 }
 .hothuodong h4{
     width: 146px;
@@ -822,7 +823,7 @@ border-bottom: 1px solid #e3e3e3;
     width: 410px;
     height: 100%;
     background-image: url(../img文件夹/bg-sider-quick.png);
-    margin-left: 60px;
+    margin-left: 6px;
     text-align: center;
     padding-top: 67px;
     padding-left: 200px;
@@ -1591,7 +1592,7 @@ border-bottom: 1px solid #e3e3e3;
     width: 500px;
     height: 364px;
     float: left;
-    margin-left: 35px;
+    margin-left: 57px;
     margin-top: 30px;
 }
 .tuijian-tuwen h4{
@@ -1701,7 +1702,7 @@ border-bottom: 1px solid #e3e3e3;
 .mingxing{
     width: 1137px;
     height: 312px;
-    margin-left: 552px;
+    margin-left: 505px;
     margin-top: 59px;
 }
 .mingxing .banxin2{
@@ -1767,7 +1768,7 @@ border-bottom: 1px solid #e3e3e3;
     background-color: rgba(26, 25, 25, 0.8);
     position: absolute;
     top: 1864px;
-    right: 1017px;
+    right: 1066px;
     opacity: 0.5;
 }
 
@@ -1817,7 +1818,7 @@ border-bottom: 1px solid #e3e3e3;
     width: 212px;
     height: 249px;
     float: left;
-    margin-left: 35px;
+    margin-left: 60px;
 }
 .mingxing-right a{
     display: block;
@@ -1842,7 +1843,7 @@ border-bottom: 1px solid #e3e3e3;
     bottom: -1355px;
     right: 0px; */
     /* float: right; */
-    margin-left: 553px;
+    margin-left: 505px;
     margin-top: 12px;
 }
 .pinpai .banxin2{
@@ -1868,7 +1869,7 @@ border-bottom: 1px solid #e3e3e3;
     width: 550px;
     height: 160px;
     float: left;
-    margin-right: 15px;
+    margin-right: 59px;
     overflow: hidden;
    
 }
@@ -1896,12 +1897,33 @@ border-bottom: 1px solid #e3e3e3;
 }
 .bottom-left a{
     display: block;
-    width: 310px;
+    width: 300px;
     height: 280px;
     float: left;
+    text-align: center;
+}
+.bottom-left a h4{
+    font-size: 25px;
+    color: #49657a;
+    margin-top: 100px;
+}
+.bottom-left a p{
+    margin-top: 12px;
+    color: #49657a;
 }
 .bottom-left a:first-child{
     margin-left: 85px;
+    background-image: url(../img文件夹/bg_pp1.png);
+    background-position: 12px 0px;
+}
+.bottom-left a:nth-child(2){
+    background-image: url(../img文件夹/bg_pp2.png);
+    background-position: 12px 0px;
+}
+.bottom-left a:nth-child(3){
+    background-image: url(../img文件夹/bg_pp3.png);
+    background-position: 12px 0px;
+    margin-right: 55px;
 }
 .bottom-right{
     width: 420px;
@@ -1919,9 +1941,10 @@ border-bottom: 1px solid #e3e3e3;
 .banben{
     background-image: url(../img文件夹/bg-btn.png);
 }
-.liuyan{
+.bottom-right .liuyan{
     background-image: url(../img文件夹/bg-btn.png);
-    background-position: 0px -119px;
+    background-position: 0px -125px;
+    height: 104px;
 }
 .shijian{
     background-image: url(../img文件夹/bg-btn.png);
@@ -1930,11 +1953,11 @@ border-bottom: 1px solid #e3e3e3;
 }
 .bottom-right a p{
     width:420px;
-    height: 111px;
+    height: 104px;
     background-image: url(../img文件夹/bg-btn-hover.png);
     background-repeat: no-repeat;
 }
-.bottom-right a p:first-child{
+.bottom-right a:first-child p{
     height: 121px;
 }
 .banben p{
@@ -1942,7 +1965,7 @@ border-bottom: 1px solid #e3e3e3;
     background-position:0px 0px ;
 }
 .liuyan p{
-    background-position: 0px -119px;
+    background-position: 0px -125px;
     display: none;
 }
 .shijian p{
@@ -2005,6 +2028,7 @@ position: relative;
     position: fixed;
     bottom: 100px;
     left: 0px;
+    z-index: 10;
 }
 .guding div{
     width: 52px;
