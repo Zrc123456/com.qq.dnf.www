@@ -1,7 +1,7 @@
 .bg{
     width: 100%;
     height: 3486px;
-    background-image:url(../img文件夹/img-心悦/bg.jpg) ;
+    background-image:url(../img文件夹/bg.jpg) ;
     position: absolute;
     top: 125px;
     z-index: -10;
@@ -22,7 +22,7 @@
     margin-top: 30px;
     width: 424px;
     height: 60px;
-    background-image: url(../img文件夹/img-心悦/sprites.png);
+    background-image: url(../img文件夹/sprites.png);
     background-position: -155px -419px;
     float: left;
 }
@@ -152,7 +152,7 @@
     height: 80px;
     float: left;
     margin-right: 124px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -1111px -1658px;
     font-weight: 700;
     font-size: 20px;
@@ -171,7 +171,7 @@
     display: block;
     width: 403px;
     height: 55px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3424px -1525px;
     position: absolute;
     top: 90px;
@@ -186,7 +186,7 @@
     display: block;
     width: 403px;
     height: 5px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -1924px -1511px;
     position: absolute;
     top: 119px;
@@ -201,7 +201,7 @@
     display: block;
     width: 403px;
     height: 55px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -1402px -1683px;
     position: absolute;
     top: 114px;
@@ -221,7 +221,7 @@
 .bg-content1{
     width: 1214px;
     height: 156px;
-    background-image:url(../img文件夹/img-心悦/con-bg-top.png);
+    background-image:url(../img文件夹/con-bg-top.png);
     position: absolute;
     z-index: -1;
     top: -41px;
@@ -229,7 +229,7 @@
 .bg-content2{
     width: 1214px;
     height: 1368px;
-    background-image:url(../img文件夹/img-心悦/con-bg-middle.png);
+    background-image:url(../img文件夹/con-bg-middle.png);
     position: absolute;
     z-index: -1;
     top: 115px;
@@ -237,7 +237,7 @@
 .bg-content3{
     width: 1214px;
     height: 268px;
-    background-image:url(../img文件夹/img-心悦/con-bg-bottom.png);
+    background-image:url(../img文件夹/con-bg-bottom.png);
     position: absolute;;
     z-index: -1;
     top: 1483px;
@@ -258,7 +258,7 @@
     display: block;
     width: 160px;
     height: 80px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3744px -1262px; 
     margin-left: 40px;
     position: relative;
@@ -267,7 +267,7 @@
     content: "";
     width: 154px;
     height: 70px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3415px -1252px;
     position: absolute;
     top: 25px;
@@ -282,7 +282,7 @@
     float: left;
     width: 561px;
     height: 126px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -1114px -1534px;
     font-size: 43px;
     color: #e2bb74;
@@ -316,7 +316,7 @@
  ul{
     width: 100%;
     height: 100%;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3358px -939px;
     padding-top: 60px;
     padding-left: 35px;
@@ -349,7 +349,7 @@
     margin-top: 30px;
     width: 180px;
     height: 64px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -845px -1807px;
     text-align: center;
     line-height: 64px;
@@ -372,7 +372,7 @@
         content: "";
         width: 114px;
         height: 115px;
-        background-image: url(../img文件夹/img-心悦/sprite-img.png);
+        background-image: url(../img文件夹/sprite-img.png);
         background-position: -612px -1808px;
         position:absolute;
         top: 0px;
@@ -382,7 +382,7 @@
         content: "";
         width: 114px;
         height: 115px;
-        background-image: url(../img文件夹/img-心悦/sprite-img.png);
+        background-image: url(../img文件夹/sprite-img.png);
         background-position: -729px -1808px;
         position: absolute;
         top: 0px;
@@ -392,7 +392,7 @@
         content: "";
         width: 114px;
         height: 115px;
-        background-image: url(../img文件夹/img-心悦/sprite-img.png);
+        background-image: url(../img文件夹/sprite-img.png);
         background-position: -3618px -1157px;
         position: absolute;
         top: 0px;
@@ -402,7 +402,7 @@
         content: "";
         width: 114px;
         height: 115px;
-        background-image: url(../img文件夹/img-心悦/sprite-img.png);
+        background-image: url(../img文件夹/sprite-img.png);
         background-position: -3618px -1274px;
         position: absolute;
         top: 0px;
@@ -413,7 +413,7 @@
     margin-top: 30px;
     width: 180px;
     height: 64px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -845px -1807px;
     text-align: center;
     line-height: 64px;
@@ -436,7 +436,7 @@
     content: "";
     width: 114px;
     height: 115px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -612px -1808px;
     position:absolute;
     top: 0px;
@@ -446,7 +446,7 @@
     content: "";
     width: 114px;
     height: 115px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -729px -1808px;
     position: absolute;
     top: 0px;
@@ -456,7 +456,7 @@
     content: "";
     width: 114px;
     height: 115px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3618px -1157px;
     position: absolute;
     top: 0px;
@@ -466,7 +466,7 @@
     content: "";
     width: 114px;
     height: 115px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -3618px -1274px;
     position: absolute;
     top: 0px;
@@ -494,7 +494,7 @@
     display: block;
     width: 30px;
     height: 30px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -2944px -1584px;
     float: left;
     text-align: center;
@@ -508,7 +508,7 @@
 .bg-gril{
     width: 606px;
     height: 1448px;
-    background-image: url(../img文件夹/img-心悦/sprite-img.png);
+    background-image: url(../img文件夹/sprite-img.png);
     background-position: -1318px -56px;
     position: absolute;
     bottom: -2630px;
@@ -524,7 +524,7 @@ z-index: -1;
 .bottom-daohang-bg{
     width: 100%;
     height: 420px;
-    background-image: url(../img文件夹/img-心悦/footerbg.jpg);
+    background-image: url(../img文件夹/footerbg.jpg);
     position: absolute;
     z-index: -10;
     top: 3611px;
@@ -555,14 +555,14 @@ z-index: -1;
     display: block;
     width: 46px;
     height: 53px;
-    background-image: url(../img文件夹/img-心悦/sprites.png);
+    background-image: url(../img文件夹/sprites.png);
     margin-left: 25px;
     margin-bottom: 30px;
 }
 .bottom-daohang p{
     width: 46px;
     height: 53px;
-    background-image: url(../img文件夹/img-心悦/sprites.png);
+    background-image: url(../img文件夹/sprites.png);
     margin-left: 25px;
     margin-bottom: 30px;
     position: absolute;
