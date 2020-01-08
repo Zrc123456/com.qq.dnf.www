@@ -69,7 +69,7 @@
     text-align: center;
 }
 .top li:hover{
-    background-image: url(../img文件夹/img-libao/actnav.png);
+    background-image: url(../img文件夹/actnav.png);
     background-position: 0px -91px;
 }
 .top li:hover a p,.top li:hover a span {
@@ -137,7 +137,7 @@
 .bg1{
     width: 100%;
     height: 500px;
-    background-image: url(../img文件夹/img-周末/bg1.jpg);
+    background-image: url(../img文件夹/bg4.jpg);
     position: absolute;
     top: 129px;
     left: 0px;
@@ -146,7 +146,7 @@
 .bg2{
     width: 100%;
     height: 1000px;
-    background-image: url(../img文件夹/img-周末/bg2.jpg);
+    background-image: url(../img文件夹/bg5.jpg);
     position: absolute;
     top: 629px;
     left: 0px;
@@ -155,7 +155,7 @@
 .bg3{
     width: 100%;
     height: 1163px;
-    background-image: url(../img文件夹/img-周末/bg3.jpg);
+    background-image: url(../img文件夹/bg6.jpg);
     position: absolute;
     top: 1629px;
     left: 0px;
@@ -171,7 +171,7 @@
 .bg4{
     width: 874px;
     height: 717px;
-    background-image: url(../img文件夹/img-周末/p1_bg.png);
+    background-image: url(../img文件夹/p1_bg.png);
     position: absolute;
     top: 450px;
     left: 521px;
@@ -180,7 +180,7 @@
 .bg5{
     width:874px;
     height: 384px;
-    background-image: url(../img文件夹/img-周末/p2_bg.png);
+    background-image: url(../img文件夹/p2_bg.png);
     position: absolute;
     top: 1230px;
     left: 521px;
@@ -189,7 +189,7 @@
 .bg6{
     width:874px;
     height: 733px;
-    background-image: url(../img文件夹/img-周末/p3_bg.png);
+    background-image: url(../img文件夹/p3_bg.png);
     position: absolute;
     top: 1672px;
     left: 521px;
@@ -198,7 +198,7 @@
 .bg7{
     width:874px;
     height: 280px;
-    background-image: url(../img文件夹/img-周末/p4_bg.png);
+    background-image: url(../img文件夹/p4_bg.png);
     position: absolute;
     top: 2450px;
     left: 521px;
@@ -224,7 +224,7 @@ h2{
 .twobox{
     width: 794px;
     height: 300px;
-    background-image: url(../img文件夹/img-周末/tab_b1.png);
+    background-image: url(../img文件夹/tab_b1.png);
     margin: 0 352px;
     background-repeat: no-repeat;
     padding-top: 4px;
@@ -244,7 +244,7 @@ table th{
 .threebox{
     width: 794px;
     height: 294px;
-    background-image: url(../img文件夹/img-周末/tab_b2.png);
+    background-image: url(../img文件夹/tab_b2.png);
     background-repeat: no-repeat;
     margin-top: 144px ;
     margin-left: 350px;
@@ -258,7 +258,7 @@ table th{
     margin-left: 5px;
 }
 .fourbox{
-    background-image: url(../img文件夹/img-周末/tab_b3.png);
+    background-image: url(../img文件夹/tab_b3.png);
     margin-top: 15px;
     width: 794px;
     height: 270px;
@@ -283,7 +283,7 @@ table th{
     float: left;
     width: 28px;
     height: 28px;
-    background-image: url(../img文件夹/img-周末/rule_icon.png);
+    background-image: url(../img文件夹/rule_icon.png);
     background-repeat: no-repeat;
 }
 .tishi li{

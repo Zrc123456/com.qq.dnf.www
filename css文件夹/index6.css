@@ -137,7 +137,7 @@
 .bg1{
     width: 100%;
     height: 500px;
-    background-image: url(../img文件夹/img-星罗万象/bg1.jpg);
+    background-image: url(../img文件夹/bg1.jpg);
     position: absolute;
     top: 129px;
     right: 0px;
@@ -146,7 +146,7 @@
 .bg2{
     width: 100%;
     height: 1000px;
-    background-image: url(../img文件夹/img-星罗万象/bg2.jpg);
+    background-image: url(../img文件夹/bg2.jpg);
     position: absolute;
     top: 629px;
     right: 0px;
@@ -155,7 +155,7 @@
 .bg3{
     width: 100%;
     height: 889px;
-    background-image: url(../img文件夹/img-星罗万象/bg3.jpg);
+    background-image: url(../img文件夹/bg3.jpg);
     position: absolute;
     top: 1629px;
     right: 0px;
@@ -164,7 +164,7 @@
 .bg4{
     width: 1028px;
     height: 630px;
-    background-image: url(../img文件夹/img-星罗万象/c1_tab_bg.png);
+    background-image: url(../img文件夹/c1_tab_bg.png);
     position: absolute;
     top: 1248px;
     left: 450px;
@@ -172,7 +172,7 @@
 .bg5{
     width: 1028px;
     height: 470px;
-    background-image: url(../img文件夹/img-星罗万象/c1_tab2_bg.png);
+    background-image: url(../img文件夹/c1_tab2_bg.png);
     position: absolute;
     top: 1900px;
     left: 450px;

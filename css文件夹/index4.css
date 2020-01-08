@@ -69,7 +69,7 @@
     text-align: center;
 }
 .top li:hover{
-    background-image: url(../img文件夹/img-libao/actnav.png);
+    background-image: url(../img文件夹/actnav.png);
     background-position: 0px -91px;
 }
 .top li:hover a p,.top li:hover a span {
@@ -137,37 +137,37 @@
 .bg1{
     width: 100%;
     height: 300px;
-    background-image: url(../img文件夹/img-libao/bg1.jpg);
+    background-image: url(../img文件夹/bg13.jpg);
 }
 .bg2{
     width: 100%;
     height: 200px;
-    background-image: url(../img文件夹/img-libao/bg2.jpg);
+    background-image: url(../img文件夹/bg8.jpg);
 }
 .bg3{
     width: 100%;
     height: 200px;
-    background-image: url(../img文件夹/img-libao/bg3.jpg);
+    background-image: url(../img文件夹/bg9.jpg);
 }
 .bg4{
     width: 100%;
     height: 300px;
-    background-image: url(../img文件夹/img-libao/bg4.jpg);
+    background-image: url(../img文件夹/bg10.jpg);
 }
 .bg5{
     width: 100%;
     height: 436px;
-    background-image: url(../img文件夹/img-libao/bg5.jpg);
+    background-image: url(../img文件夹/bg11.jpg);
 }
 .bg6{
     width: 100%;
     height: 350px;
-    background-image: url(../img文件夹/img-libao/bg6.jpg);
+    background-image: url(../img文件夹/bg11.jpg);
 }
 .bg7{
     width: 100%;
     height: 375px;
-    background-image: url(../img文件夹/img-libao/bg7.jpg);
+    background-image: url(../img文件夹/bg7.jpg);
 }
 .lihe{
     width: 1086px;
@@ -194,7 +194,7 @@
     margin-left: 60px;
     width: 123px;
     height: 33px;
-    background-image: url(../img文件夹/img-libao/sprite.png);
+    background-image: url(../img文件夹/sprite_01.png);
 }
 .lihe .lihe1 a{
     margin-top: 40px;
@@ -233,7 +233,7 @@
     float: left;
     width: 33px;
     height: 33px;
-    background-image: url(../img文件夹/img-libao/icon.png);
+    background-image: url(../img文件夹/icon.png);
     color: #bea164;
     text-align: center;
     line-height: 33px;
@@ -267,7 +267,7 @@ table th:last-child{
     display: block;
     width: 487px;
     height: 90px;
-    background-image: url(../img文件夹/img-libao/sprite.png);
+    background-image: url(../img文件夹/sprite_01.png);
     background-position: 0px -61px;
     margin: 0 auto;
     background-repeat: no-repeat;
