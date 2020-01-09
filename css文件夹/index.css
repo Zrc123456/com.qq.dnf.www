@@ -1760,18 +1760,6 @@ border-bottom: 1px solid #e3e3e3;
     line-height: 20px;
     margin-left: 130px;
 }
-
-.doudizhu:before{
-    content: "";
-    width: 333px;
-    height: 187px;
-    background-color: rgba(26, 25, 25, 0.8);
-    position: absolute;
-    top: 1864px;
-    right: 1066px;
-    opacity: 0.5;
-}
-
 .zahuishi{
     background-image: url(../upload文件夹/20191130140017.jpg);
     background-repeat: no-repeat;
